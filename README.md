@@ -2,31 +2,31 @@
 
 ## The sidebar menu
 
-The third project for sidebar menu for webpage. It is opportunity to learn this new project navigation menu.
+The third project for the sidebar menu for the webpage. It is an opportunity to learn this new project navigation menu.
 
 ## Preview
 
 <figure>
     <img src="./PreviewProject.gif" alt="The preview project">
-    <figcaption>The project responsive side menu bar project is the great opportunty to build this project for the future project.</figcaption>
+    <figcaption>The project responsive side menu bar project is a great opportunity to build this project for future projects.</figcaption>
 </figure>
 
-## Start the Sidbar Creation
+## Start the Sidebar Creation
 
-First, we need to create the files for the project for HTML file and the CSS file and the assets of the webpage project.
+First, we need to create the files for the project the HTML file the CSS file and the assets of the webpage project.
 
 <figure>
     <img src="./firstFile.png" alt="The file">
     <figcaption>The starter files for the web project</figcaption>
 </figure>
 
-## Create HTML and CSS for Sidebar
+## Create HTML and CSS for the Sidebar
 
-The first file we create for html files is the boilerplate. Simply type (`!`) to VS Code IDE if you use this. The method you did when you type `!` this on the keyboard is called **Emmet**.
+The first file we create for HTML files is the boilerplate. Simply type (`!`) to VS Code IDE if you use this. The method you did when you type `!` this on the keyboard is called **Emmet**.
 
 <figure>
     <img src="./boilerplate.gif" alt="The HTML Template using Emmet" style="border: 1px solid white;">
-    <figcaption>The html template for this project.</figcaption>
+    <figcaption>The HTML template for this project.</figcaption>
 </figure>
 
 Change the title of the project we create. From the **Document** to **Responsive Sidebar Menu**.
@@ -49,7 +49,7 @@ Use [**Font-Awesome**](https://cdnjs.com/libraries/font-awesome) For your logos 
 
 <figure>
     <img src="./cdnjs.png" alt=""The dcnjs website>
-    <figcaption>Copy the latest linke and paste it to your html file</figcaption>
+    <figcaption>Copy the latest link and paste it to your html file</figcaption>
 </figure>
 
 This website works for the Icons for the project we create.
@@ -75,7 +75,7 @@ Then, apply it to your project in the head section.
 </html>
 ```
 
-If you want to search logo for your webpage icons, here's the link and click this [**Font-Awesome Icon**](https://fontawesome.com/icons)
+If you want to search logos for your webpage icons, here's the link and click this [**Font-Awesome Icon**](https://fontawesome.com/icons)
 
 <figure>
     <img src="./fontawesomeicon.png" alt="The fontawsome website">
@@ -137,7 +137,7 @@ This code represents a sidebar menu with links to different sections like Dashbo
     <figcaption>Here's the seven anchors of the project.</figcaption>
 </figure>
 
-Next, is put the icons of every anchors of the project. And here's the following icons for the project.
+Next, put the icons of every anchor of the project. And here are the following icons for the project.
 
 - **Dashboard** (QR Code - `<i class="fa-solid fa-qrcode"></i>`)
 - **Shortcuts** (Links - `<i class="fa-solid fa-link"></i>`)
@@ -173,7 +173,7 @@ Next, is put the icons of every anchors of the project. And here's the following
     <figcaption>You see the anchor with the logo.</figcaption>
 </figure>
 
-Link the CSS file to the `head` as a part of the webpage. And here's the code of how to link it the `style.css`. 
+Link the CSS file to the `head` as a part of the webpage. And here's the code of how to link it to the `style.css`. 
 
 ```
 <!DOCTYPE html>
@@ -214,7 +214,7 @@ Add the `header` under the `body` element for the project. This CSS code defines
 
 ## Now Style the Elements using CSS (Cascade StyleSheet)
 
-In CSS file, we need to import the online font using `@import url()` fonts from google fonts using `Montserrat` fonts. This CSS code is importing a Google Font called "Montserrat". The @import rule is used to import external CSS stylesheets. The URL provided is a link to the Google Fonts API, which fetches the CSS styles for the "Roboto" font with various weights and styles. The `display=swap` parameter ensures that the font is displayed immediately while it is being fetched.
+In CSS file, we need to import the online font using `@import url()` fonts from Google fonts using `Montserrat` fonts. This CSS code is importing a Google Font called "Montserrat". The @import rule is used to import external CSS stylesheets. The URL provided is a link to the Google Fonts API, which fetches the CSS styles for the "Roboto" font with various weights and styles. The `display=swap` parameter ensures that the font is displayed immediately while it is being fetched.
 
 ```
 https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap
@@ -238,7 +238,7 @@ This CSS code sets the `margin`, `padding`, and `text-decoration` properties to 
 
 <figure>
     <img src="./theMenu.png" alt="The menus">
-    <figcaption>The margin and the padding is none and also for text decoration is not that's why every anchor's no underline</figcaption>
+    <figcaption>The margin and the padding are none and also for text decoration are not that's why every anchor's no underline</figcaption>
 </figure>
 
 Style the sidebar for the project. This code defines the styling for an element with the class "sidebar". It sets the `position` to `fixed`, `width` to `240 pixels`, `height` to `100%` of the parent element, and `background` color to a `dark gray` (#1e1e1e).
@@ -279,13 +279,13 @@ Style the `header` of the project. This CSS code is defining the styles for the 
 Before (without `user-select: none`):
 <figure>
     <img src="./pointMenu.gif" alt="The menu pointer">
-    <figcaption>When you point using mouse to the `header` menu. The mouse pointer changes</figcaption>
+    <figcaption>When you point using the mouse to the `header` menu. The mouse pointer changes</figcaption>
 </figure>
 
 After (with `user-select: none`):
 <figure>
     <img src="./pointMenu1.gif" alt="The menu pointer with user-select">
-    <figcaption>When you point using mouse to the `header` menu. The mouse pointer nothing change</figcaption>
+    <figcaption>When you point using the mouse to the `header` menu. The mouse pointer nothing change</figcaption>
 </figure>
 
 Style the `a` element under the `sidebar`. This CSS code defines the style for the anchor tags (`<a>`) within the `.sidebar` class. It sets the `display` to `block`, which means the anchor tags will take up the entire `width` of their `container`. The `color` of the text is set to `white`. The height and `line-height` are set to `65 pixels`, which determines the vertical alignment of the text. The anchor tags have a `left padding` of `30 pixels`. There is a `1-pixel solid white border at the bottom`, a `1-pixel solid black border at the top`, and a `5-pixel solid red border on the left`. The `font-family` is set to "Open Sans" with fallback to `sans-serif`.
@@ -306,11 +306,11 @@ Style the `a` element under the `sidebar`. This CSS code defines the style for t
 ```
 
 <figure>
-    <img src="./menuWithoutborderbox.png" alt="withot border-box">
-    <figcaption>You see the black of burder-top that's something error you need to fix</figcaption>
+    <img src="./menuWithoutborderbox.png" alt="without border-box">
+    <figcaption>You see the black of border-top that's something error you need to fix</figcaption>
 </figure>
 
-Now, use the `box-sizing` CSS declarator. This CSS code sets the `box-sizing` property of an element to `border-box`. This means that the width and height of the element includes the padding and border, but not the margin.
+Now, use the `box-sizing` CSS declarator. This CSS code sets the `box-sizing` property of an element to `border-box`. This means that the width and height of the element include the padding and border, but not the margin.
 
 ```
 .sidebar a {
@@ -330,7 +330,7 @@ Now, use the `box-sizing` CSS declarator. This CSS code sets the `box-sizing` pr
 
 <figure>
     <img src="./menuWithoutborderbox.png" alt="Menu with border-box">
-    <figcaption>After we use the `box-sizing` means that the width and height of the element includes the padding and border, but not the margin.</figcaption>
+    <figcaption>After we use the `box-sizing` means that the width and height of the element include the padding and border, but not the margin.</figcaption>
 </figure>
 
 Add the `class` attribute to `Dashboard`. This is an HTML code that defines a link element with the class "active" and an empty href attribute. 
@@ -380,10 +380,10 @@ Style for the icon. This code sets the `font-size` to `23 pixels` and the `right
 
 <figure>
     <img src="./iconStyled.png" alt="Styled icon">
-    <figcaption>The icons has bigger than before and the margin right for icon was adjusted</figcaption>
+    <figcaption>The icons are bigger than before and the margin right for the icon was adjusted</figcaption>
 </figure>
 
-Style the font of the `span` tags under the `a` (anchor) tags. This CSS targets the span elements within a tags inside elements with the class sidebar. It sets the `letter-spacing` to `1 pixel` and `text-transform` to `uppercase`.
+Style the font of the `span` tags under the `a` (anchor) tags. This CSS targets the span elements within tags inside elements with the class sidebar. It sets the `letter-spacing` to `1 pixel` and `text-transform` to `uppercase`.
 
 ```
 .sidebar a span {
@@ -397,7 +397,7 @@ Style the font of the `span` tags under the `a` (anchor) tags. This CSS targets 
     <figcaption>The uppercase of all span elements under the anchor tags.</figcaption>
 </figure>
 
-In html file, add the `input` element and the type of input form is `checkbox`. This code creates a checkbox input element with a corresponding label. The label contains two icons, one with the class "fa-solid fa-bars" and the other with the class "fa-regular fa-circle-xmark".
+In HTML file, add the `input` element and the type of input form is `checkbox`. This code creates a checkbox input element with a corresponding label. The label contains two icons, one with the class "fa-solid fa-bars" and the other with the class "fa-regular fa-circle-xmark".
 
 ```
 <!DOCTYPE html>
@@ -434,7 +434,7 @@ This CSS code is targeting an element with the ID "check" and setting its displa
     <figcaption>The icons hide after the `position` of the icons are `absolute`</figcaption>
 </figure>
 
-Adjust the `.sidebar` to adjust its `left` which is the position of sidebar is `absolute`. This code sets the left distance of the element to be 240 pixels off the screen to the left.
+Adjust the `.sidebar` to adjust its `left` which is the position of the sidebar is `absolute`. This code sets the left distance of the element to be 240 pixels off the screen to the left.
 
 ```
 .sidebar {
@@ -448,10 +448,10 @@ Adjust the `.sidebar` to adjust its `left` which is the position of sidebar is `
 
 <figure>
     <img src="./sidebarTurnsLeft.png" alt="The icons">
-    <figcaption>The icons are shown but the sidebar moves to the left at the same of width but subtracted </figcaption>
+    <figcaption>The icons are shown but the sidebar moves to the left at the same width but subtracted </figcaption>
 </figure>
 
-This CSS code defines the styling for two elements with the IDs "button" and "cancel" that are inside a label element. The elements are positioned absolutely and have a background color of #262626. They have a height and width of 45 pixels, and the text inside them is centered both horizontally and vertically. The color of the text is white, and the font size is 29 pixels. The elements also have a 1 pixel solid border with the same color as the background.
+This CSS code defines the styling for two elements with the IDs "button" and "cancel" that are inside a label element. The elements are positioned absolutely and have a background color of #262626. They have a height and width of 45 pixels, and the text inside them is centered both horizontally and vertically. The color of the text is white, and the font size is 29 pixels. The elements also have a 1-pixel solid border with the same color as the background.
 
 ```
 label #button, label #cancel {
@@ -507,7 +507,7 @@ label #button, label #cancel {
 
 <figure>
     <img src="iconBorderradius.png" alt="The border radius">
-    <figcaption>The border radius for cancel and for the button</figcaption>
+    <figcaption>The border-radius for cancel and for the button</figcaption>
 </figure>
 
 This CSS code targets the `#button` element that is a descendant of a label element, which is a sibling of an element with the ID `#check`, and is only applied when the #check element is checked (selected). It sets the `margin-left` property of the `#button` element to `245px`.
@@ -520,7 +520,7 @@ This CSS code targets the `#button` element that is a descendant of a label elem
 
 <figure>
     <img src="iconClicked.gif" alt="Icon clicked">
-    <figcaption>When you click the button icon, this is what happend.</figcaption>
+    <figcaption>When you click the button icon, this is what happened.</figcaption>
 </figure>
 
 This CSS code sets the `margin` of an element to `15 pixels` on the top and bottom, and `30 pixels` on the left and right. It also specifies that any changes to this element's properties should be animated over a duration of 0.5 seconds with an easing effect.
@@ -548,7 +548,7 @@ label #button, label #cancel {
     <figcaption>You click the icon, the movement of icons is smooth</figcaption>
 </figure>
 
-This CSS code targets the `#button` element that is a sibling of the `#check` element and is a descendant of a label element. When the `#check` element is checked (i.e., selected), it applies the following styles to the `#button` element:
+This CSS code targets the `#button` element is a sibling of the `#check` element and is a descendant of a label element. When the `#check` element is checked (i.e., selected), it applies the following styles to the `#button` element:
 
 - `margin-left: 245px;` sets the left margin of the #button element to 245 pixels.
 
@@ -583,7 +583,7 @@ When the checkbox is checked, the `cancel` element will have a `margin-left` of 
 
 <figure>
     <img src="cancelButtonIcon.gif" alt="The icon button and cancel">
-    <figcaption>The cancel and button appear when you click this</figcaption>
+    <figcaption>The cancel button appears when you click this</figcaption>
 </figure>
 
 This code styles the element with the class "sidebar" when the element with the id "check" is checked. It sets the left position of the "sidebar" element to 0 when the "check" element is checked.
@@ -596,7 +596,7 @@ This code styles the element with the class "sidebar" when the element with the 
 
 <figure>
     <img src="./iconSidebar.gif" alt="The icon sidebar">
-    <figcaption>When you clicked the icon, the sidebar will appear</figcaption>
+    <figcaption>When you click the icon, the sidebar will appear</figcaption>
 </figure>
 
 This CSS code sets a transition effect on all CSS properties of an element. The `transition` lasts 0.5 seconds and the speed of the transition starts slow and ends fast.
@@ -673,4 +673,4 @@ Here's a breakdown of what the code does:
     <figcaption>Here's the final project</figcaption>
 </figure>
 
-The project creation for Navigation menu is done. Congratulations!!! 🎉
+The project creation for the Navigation menu is done. Congratulations!!! 🎉
